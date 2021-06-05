@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  line-height: 1.5; }
+
+#header {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #header .header__content {
+    width: 70%;
+    display: flex;
+    height: 50%; }
+    #header .header__content .header__content__logo {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #header .header__content .header__content__logo div img {
+        max-width: 100px; }
+    #header .header__content .header__content__tools {
+      width: 60%;
+      display: flex;
+      justify-content: flex-end; }
+      #header .header__content .header__content__tools > div ul {
+        display: flex;
+        justify-content: flex-start; }
+        #header .header__content .header__content__tools > div ul li {
+          list-style-type: none;
+          padding: 13px 20px; }
+          #header .header__content .header__content__tools > div ul li:hover {
+            border-bottom: 2px solid #415266; }
+          #header .header__content .header__content__tools > div ul li span {
+            font-size: 20px;
+            color: #415266; }
+          #header .header__content .header__content__tools > div ul li .drop__down {
+            position: relative;
+            display: inline-block; }
+            #header .header__content .header__content__tools > div ul li .drop__down span {
+              font-size: 20px;
+              color: #415266; }
+            #header .header__content .header__content__tools > div ul li .drop__down i {
+              margin-left: 5px; }
+            #header .header__content .header__content__tools > div ul li .drop__down:hover .drop__down__content {
+              display: block; }
+            #header .header__content .header__content__tools > div ul li .drop__down .drop__down__content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 128px;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+              z-index: 100;
+              left: -30px; }
+              #header .header__content .header__content__tools > div ul li .drop__down .drop__down__content a {
+                color: #415266;
+                padding: 12px 16px;
+                text-decoration: none;
+                font-size: 20px;
+                display: flex;
+                justify-content: center; }
+                #header .header__content .header__content__tools > div ul li .drop__down .drop__down__content a:hover {
+                  background-color: #415266;
+                  color: #fff; }
+    #header .header__content .header__content__contact {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #header .header__content .header__content__contact a {
+        background-color: #ffc93c;
+        text-decoration: none;
+        width: 144px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #header .header__content .header__content__contact a:hover {
+          background-color: #415266; }
+        #header .header__content .header__content__contact a h3 {
+          color: #fff;
+          padding: 13px 20px; }
+
+#main {
+  position: relative; }
+  #main .main__title {
+    height: 770px;
+    background-image: url(../images/cheerful-business-team-giving-each-other-high-five-STW5SJ5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; }
+    #main .main__title .mask {
+      position: absolute;
+      height: 770px;
+      width: 100%;
+      background-color: #415266;
+      top: 0;
+      left: 0;
+      opacity: 0.8;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #main .main__title .mask .main__title__top {
+        width: 50%;
+        height: 60%;
+        border: 2.5px solid #FFC93C; }
+        #main .main__title .mask .main__title__top div {
+          padding: 20px; }
+          #main .main__title .mask .main__title__top div h3 {
+            color: #ffc93c;
+            text-align: center;
+            font-size: 18px; }
+          #main .main__title .mask .main__title__top div h1 {
+            color: white;
+            text-align: center;
+            font-size: 65px;
+            margin: 20px 0px; }
+          #main .main__title .mask .main__title__top div p {
+            color: white;
+            text-align: center;
+            font-size: 23px; }
+          #main .main__title .mask .main__title__top div a {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            text-decoration: none; }
+          #main .main__title .mask .main__title__top div button {
+            padding: 25px 40px;
+            color: #fff;
+            border: 1px solid #fff;
+            background-color: rgba(168, 112, 112, 0); }
+            #main .main__title .mask .main__title__top div button:hover {
+              background-color: #fff;
+              color: #415266; }
+  #main .main__learn__more {
+    width: 100%;
+    margin: 96px 0px;
+    display: flex;
+    justify-content: center; }
+    #main .main__learn__more > div {
+      display: flex;
+      width: 70%; }
+      #main .main__learn__more > div .main__learn__more__img {
+        width: 50%; }
+        #main .main__learn__more > div .main__learn__more__img img {
+          height: 483px;
+          width: 635px;
+          border-right: 3px solid #ffc93c;
+          border-bottom: 3px solid #ffc93c; }
+      #main .main__learn__more > div .main__learn__more__imformation {
+        margin-left: 135px; }
+        #main .main__learn__more > div .main__learn__more__imformation div p {
+          margin-top: 30px; }
+        #main .main__learn__more > div .main__learn__more__imformation a button {
+          padding: 16px 40px;
+          margin-top: 58px;
+          background-color: #fff;
+          border: 1px solid #415266;
+          color: #415266;
+          font-size: 15px; }
+          #main .main__learn__more > div .main__learn__more__imformation a button:hover {
+            background-color: #415266;
+            color: #fff; }
+  #main h3 {
+    color: #ffc93c;
+    font-size: 18px; }
+  #main h1 {
+    color: #415266;
+    font-size: 40px; }
+  #main p {
+    color: #415266;
+    font-size: 19px; }
+  #main .main__icon__and__content {
+    background-color: #faf9f9;
+    padding-bottom: 100px; }
+    #main .main__icon__and__content .main__content {
+      margin-top: 100px; }
+      #main .main__icon__and__content .main__content h3 {
+        text-align: center;
+        padding-top: 100px; }
+      #main .main__icon__and__content .main__content h1 {
+        text-align: center;
+        width: 40%;
+        margin-left: 28rem;
+        margin-top: 35px; }
+    #main .main__icon__and__content .main__icon {
+      margin-top: 50px; }
+      #main .main__icon__and__content .main__icon > ul {
+        margin-left: 15em;
+        display: flex;
+        justify-content: flex-start; }
+        #main .main__icon__and__content .main__icon > ul li {
+          list-style-type: none;
+          display: flex;
+          background-color: #fff;
+          width: 360px;
+          height: 260px;
+          margin: 0px 20px 20px 0px;
+          box-shadow: 1px 1px 10px -4px grey;
+          border: 2px solid transparent; }
+          #main .main__icon__and__content .main__icon > ul li:hover {
+            border: 2px solid #ffc93c; }
+          #main .main__icon__and__content .main__icon > ul li .icon {
+            padding: 40px; }
+          #main .main__icon__and__content .main__icon > ul li .content__icon {
+            width: 40%; }
+            #main .main__icon__and__content .main__icon > ul li .content__icon h2 {
+              padding: 17px 0px;
+              color: #415266;
+              width: 150%; }
+            #main .main__icon__and__content .main__icon > ul li .content__icon p {
+              color: #415266;
+              width: 130%; }
+            #main .main__icon__and__content .main__icon > ul li .content__icon > div {
+              margin-top: 35px; }
+              #main .main__icon__and__content .main__icon > ul li .content__icon > div a {
+                font-size: 20px;
+                text-decoration: none;
+                color: #415266; }
+                #main .main__icon__and__content .main__icon > ul li .content__icon > div a:hover {
+                  border-bottom: 1px solid black; }
+  #main .main__contact__us {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px; }
+    #main .main__contact__us > div {
+      width: 70%;
+      display: flex; }
+      #main .main__contact__us > div .contact__img img {
+        border-right: 3px solid #ffc93c;
+        border-bottom: 3px solid #ffc93c; }
+      #main .main__contact__us > div .contact__us {
+        margin-left: 50px; }
+        #main .main__contact__us > div .contact__us .contact h1 {
+          margin-top: 30px; }
+        #main .main__contact__us > div .contact__us .contact p {
+          margin-top: 30px; }
+        #main .main__contact__us > div .contact__us .login {
+          width: 100%; }
+          #main .main__contact__us > div .contact__us .login .login__top {
+            width: 100%;
+            display: flex;
+            margin-top: 35px; }
+            #main .main__contact__us > div .contact__us .login .login__top .login__top__name input {
+              width: 235px;
+              height: 40px;
+              border: 1px solid #FAF9F9;
+              padding: 10px; }
+            #main .main__contact__us > div .contact__us .login .login__top .login__top__email {
+              margin-left: 18px; }
+              #main .main__contact__us > div .contact__us .login .login__top .login__top__email input {
+                width: 235px;
+                height: 40px;
+                border: 1px solid #FAF9F9;
+                padding: 10px; }
+          #main .main__contact__us > div .contact__us .login .login__center {
+            width: 100%;
+            display: flex; }
+            #main .main__contact__us > div .contact__us .login .login__center .login__center__phone input {
+              width: 235px;
+              height: 40px;
+              border: 1px solid #FAF9F9;
+              padding: 10px; }
+            #main .main__contact__us > div .contact__us .login .login__center .login__center__subject {
+              margin-left: 18px; }
+              #main .main__contact__us > div .contact__us .login .login__center .login__center__subject input {
+                width: 235px;
+                height: 40px;
+                border: 1px solid #FAF9F9;
+                padding: 10px; }
+          #main .main__contact__us > div .contact__us .login .login__bottom {
+            width: 100%; }
+            #main .main__contact__us > div .contact__us .login .login__bottom input {
+              width: 485px;
+              height: 150px;
+              border: 1px solid #FAF9F9;
+              padding: 10px; }
+          #main .main__contact__us > div .contact__us .login .send__message {
+            margin-top: 20px; }
+            #main .main__contact__us > div .contact__us .login .send__message button {
+              font-size: 16px;
+              width: 180px;
+              height: 58px;
+              background-color: #fff;
+              color: #415266;
+              border: 2px solid #415266; }
+              #main .main__contact__us > div .contact__us .login .send__message button:hover {
+                background-color: #415266;
+                color: #fff; }
+  #main .main__logo__and__content {
+    margin-top: 120px; }
+    #main .main__logo__and__content .content p {
+      text-align: center;
+      width: 34%;
+      margin-left: 32rem;
+      margin-top: 60px; }
+    #main .main__logo__and__content .content h1 {
+      text-align: center; }
+    #main .main__logo__and__content .content h3 {
+      text-align: center; }
+    #main .main__logo__and__content .logo table {
+      margin-top: 40px;
+      width: 100%;
+      border-collapse: collapse; }
+      #main .main__logo__and__content .logo table tr th {
+        border: 1px solid #f2f3f4; }
+  #main .main__vote {
+    display: flex;
+    justify-content: center;
+    margin-top: 105px; }
+    #main .main__vote > div {
+      width: 70%;
+      display: flex; }
+      #main .main__vote > div .main__vote__comment {
+        border: 2px solid #415266;
+        width: 60%;
+        padding: 40px; }
+        #main .main__vote > div .main__vote__comment h1 {
+          margin-top: 30px; }
+        #main .main__vote > div .main__vote__comment p {
+          margin-top: 50px; }
+        #main .main__vote > div .main__vote__comment div p {
+          margin-top: 15px; }
+      #main .main__vote > div .vote div > .vote__icon {
+        margin: 50px;
+        background-color: #415266;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #main .main__vote > div .vote div > .vote__icon > i {
+          font-size: 50px;
+          color: #fff;
+          padding: 25px; }
+      #main .main__vote > div .number {
+        margin: 15px; }
+        #main .main__vote > div .number h1 {
+          font-size: 75px;
+          color: #FFC93C; }
+        #main .main__vote > div .number h4 {
+          font-size: 20px;
+          color: #445266; }
+        #main .main__vote > div .number .number__center {
+          margin: 10px 0px; }
+  #main .main__partner {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center; }
+    #main .main__partner > div {
+      width: 70%;
+      display: flex; }
+      #main .main__partner > div .left {
+        width: 30%; }
+        #main .main__partner > div .left h1 {
+          margin-top: 10px; }
+      #main .main__partner > div .right {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end; }
+        #main .main__partner > div .right > hr {
+          width: 530px;
+          height: 3.5px;
+          background-color: black;
+          margin-top: 45px; }
+  #main .main__partner__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    #main .main__partner__logo > div {
+      width: 70%;
+      margin-top: 60px; }
+      #main .main__partner__logo > div table {
+        width: 100%;
+        border-collapse: collapse; }
+        #main .main__partner__logo > div table tr th {
+          border: 1px solid #f2f3f4; }
+  #main .main__advice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 530px;
+    background-color: #415266;
+    margin-top: 100px; }
+    #main .main__advice div {
+      display: flex;
+      align-items: center; }
+      #main .main__advice div .advice {
+        margin-left: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 50%; }
+        #main .main__advice div .advice i {
+          font-size: 25px;
+          color: #fff; }
+        #main .main__advice div .advice h2 {
+          color: #fff;
+          text-align: center;
+          padding: 20px; }
+      #main .main__advice div .advice__img {
+        width: 50%;
+        height: 50%; }
+        #main .main__advice div .advice__img img {
+          max-width: 24rem;
+          margin: 35px 0px 0px 7rem; }
+  #main .main__contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 110px 0px; }
+    #main .main__contact > div {
+      display: flex;
+      width: 70%;
+      background-color: #faf9f9;
+      border: 2px solid #415266;
+      height: 250px; }
+      #main .main__contact > div:hover {
+        border: 2px solid #ffc93c; }
+      #main .main__contact > div .contact__1 {
+        width: 50%; }
+        #main .main__contact > div .contact__1 h1 {
+          text-align: center;
+          margin-top: 60px; }
+        #main .main__contact > div .contact__1 p {
+          text-align: center;
+          width: 85%;
+          margin-left: 80px; }
+      #main .main__contact > div .contact__2 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #main .main__contact > div .contact__2 > a {
+          list-style-type: none;
+          color: #fff;
+          background-color: #ffc93c;
+          text-decoration: none;
+          margin-left: 15em; }
+          #main .main__contact > div .contact__2 > a:hover {
+            background-color: #415266; }
+          #main .main__contact > div .contact__2 > a h4 {
+            font-size: 18px;
+            padding: 20px 30px; }
+
+#footer {
+  width: 100%;
+  background-color: #415266;
+  display: flex;
+  justify-content: center; }
+  #footer > div {
+    width: 70%;
+    margin: 96px 0px;
+    height: 230px;
+    display: flex; }
+    #footer > div .footer__logo {
+      width: 30%; }
+      #footer > div .footer__logo img {
+        max-width: 140px;
+        margin-bottom: 20px; }
+      #footer > div .footer__logo p {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 24px; }
+      #footer > div .footer__logo div a {
+        font-size: 22px;
+        text-decoration: none; }
+        #footer > div .footer__logo div a > i {
+          color: #fff;
+          padding: 10px;
+          background-color: #52657d; }
+          #footer > div .footer__logo div a > i:hover {
+            background-color: #ffc93c; }
+    #footer > div .footer__Information {
+      width: 23%;
+      margin-left: 40px; }
+      #footer > div .footer__Information h2 {
+        color: #fff;
+        margin-bottom: 47px; }
+      #footer > div .footer__Information ul li {
+        list-style-type: none;
+        margin-bottom: 10px; }
+        #footer > div .footer__Information ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 19px; }
+          #footer > div .footer__Information ul li a:hover {
+            color: #ffc93c; }
+

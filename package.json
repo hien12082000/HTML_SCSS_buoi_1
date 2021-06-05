@@ -1,0 +1,33 @@
+{
+  "name": "buoi1",
+  "version": "1.0.0",
+  "description": "hien",
+  "main": "index.js",
+  "author": "hien",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "cssnano": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "npm-watch": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "webpack",
+    "watch": "webpack watch",
+    "watch-poll": "webpack watch -- --watch-options-poll=1000",
+    "hot": "webpack watch --hot",
+    "prod": "npm run production",
+    "production": "webpack --production"
+  }
+}
